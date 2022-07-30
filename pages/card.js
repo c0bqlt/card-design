@@ -1,9 +1,12 @@
 import React from 'react';
+import ChangePasswordForm from '../components/ChangePasswordForm';
+import DeleteAccountButton from '../components/DeleteAccountButton';
 import EmailInput from '../components/EmailInput';
 import GenderSelect from '../components/GenderSelect';
 import Layout from '../components/Layout';
 import NameInput from '../components/NameInput';
 import ProfileImage from '../components/ProfileImage';
+import SaveChangesButton from '../components/SaveChangesButton';
 
 const Page = () => {
   return (
@@ -20,6 +23,9 @@ const Page = () => {
           </label>
           <ProfileImage source="https://imgs.search.brave.com/ixkysHRY5iLmIWyOdSmcmbZzPkRlck3G3XVYZkjr8MM/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vd2F2eWhh/aXJjdXQuY29tL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDE5LzA3/L3Bpbi1ieS1qb2Fu/bmEta2V5c2Etb24t/aGFpcnN0eWxlcy1p/bi0yMDE5LWhhaXIt/c3R5bGVzLWJveS13/aXRoLWluZGlhbi1i/b3ktaGFpci1zdHls/ZS1zaW1wbGUuanBn/P2ZpdD0xNTc4JTJD/MjM3MCZzc2w9MQ" />
           <GenderSelect />
+          <ChangePasswordForm />
+          <SaveChangesButton />
+          <DeleteAccountButton />
         </div>
       </Layout>
     </div>
