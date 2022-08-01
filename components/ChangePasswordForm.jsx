@@ -5,7 +5,8 @@ import CurrentPasswordInput from './CurrentPasswordInput';
 import NewPasswordInput from './NewPasswordInput';
 
 const ChangePasswordForm = () => {
-  const classes = 'border-solid border-b-2 border-slate-700 focus:outline-none';
+  const classes =
+    'w-full rounded-lg border border-slate-200 px-2 py-1 hover:border-blue-500 focus:outline-none focus:ring focus:ring-blue-500/40 active:ring active:ring-blue-500/40';
   const [values, setValues] = useState({
     currentPassword: '',
     newPassword: '',

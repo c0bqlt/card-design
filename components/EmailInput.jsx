@@ -17,7 +17,7 @@ const EmailInput = (props) => {
       <input
         type="email"
         value={email}
-        className="border-solid border-b-2 border-slate-700 focus:outline-none"
+        className="w-full rounded-lg border border-slate-200 px-2 py-1 hover:border-blue-500 focus:outline-none focus:ring focus:ring-blue-500/40 active:ring active:ring-blue-500/40"
         onChange={handleEmailChange}
       />
       {/* <button
