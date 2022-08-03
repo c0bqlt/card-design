@@ -15,6 +15,7 @@ const ChangePasswordForm = () => {
 
   return (
     <form>
+      <h3 className="mb-4 font-bold text-base">Change your password</h3>
       <CurrentPasswordInput
         values={values}
         setValues={setValues}
